@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="st" class="org.example.Student" >
+    </bean>
+    <bean id="fun" class="org.example.Springboot"/>
+    <bean id="t1" class="org.example.task1"/>
+    <bean id="t2" class="org.example.task2"/>
+    <bean id="t3" class="org.example.task3"/>
+</beans>
